@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background:#121212;
+  color:#fff;
+  font-family: 'Montserrat';
+}
+
+section {
+  position: absolute;
+}
+
+#particles-js {
+  position : absolute;
+  width:100vw;
+  height:100vh;
+  z-index:-10;
+}
+
+.top-menu {
+  padding:3rem;
+  z-index:1;
+}
+
+.top-menu a {
+  color: #ffffff;
+  font-size:2rem;
+  text-decoration: none;
+}
+
+.top-menu a:hover {
+  color:#bb86fc
+}
+
+.hello {
+  margin:17rem 0 0 6rem;
+}
+
+.hi {
+  margin-left:0.5rem;
+  font-size: 10rem;
+}
+
+.name {
+  font-size: 15rem;
+  color:#bb86fc;
+  line-height:10rem;
+}
+
+#typed {
+  margin:2rem 1.5rem;
+  font-size:3rem;
+  display: inline-block;
+}
+
+.typed-cursor {
+  font-size:3rem;
+}
