@@ -36,6 +36,8 @@ section {
 
 .hello {
   margin:17rem 0 0 6rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .hi {
@@ -49,7 +51,7 @@ section {
   line-height:10rem;
 }
 
-#typed {
+.typed {
   margin:2rem 1.5rem;
   font-size:3rem;
   display: inline-block;
