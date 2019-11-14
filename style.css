@@ -3,87 +3,40 @@
   padding: 0;
 }
 body {
+  position:absolute;
   background:#121212;
   color:#fff;
   font-family: 'Montserrat';
 }
 
-section {
-  position: absolute;
+/* take off the scroll bar bc it looks ugly*/
+::-webkit-scrollbar {
+  display:none;
+}
+
+/* using this to achieve the top stays fixed as rest scrolls over it*/
+.panels {
+  position:relative
+}
+
+.page-one {
+  position:fixed;
+  z-index:-5
+}
+
+.home-page {
+  position : absolute;
+  z-index:-10;
+  width:100vw;
 }
 
 #particles-js {
-  position : absolute;
-  width:100vw;
+  position:fixed;
   height:100vh;
-  z-index:-10;
 }
 
-.top-menu {
-  width:100vw;
-  padding:3rem 0rem;
-  z-index:1;
-}
-
-.home-button {
-  float:left;
-  width:50%;
-  padding: 0 0 0 3rem; }
-
-.home-button a {
-  color: #ffffff;
-  font-size:2rem;
-  text-decoration: none;
-}
-
-.home-button a:hover {
-  font-size:2.2rem;
-  color:#bb86fc
-}
-
-.page-links {
-  float:right;
-  width:95%;
-  text-align: right;
-  word-spacing:1.5rem;
-  letter-spacing:0.4rem;
-}
-
-.page-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size:0.9rem;
-}
-
-.page-links a:hover {
-  color: #bb86fc;
-}
-
-.social-links {
-  position: fixed;
-  bottom:0;
-  right:0;
-  margin:0 2rem 1rem 0;
-  font-size:1.2rem;
-  z-index:20;
-}
-
-.social-links table {
-  border-width:0;
-}
-
-.social-links td a{
-  color:#ffffff;
-  padding:0.4rem;
-}
-
-.social-links a:hover {
-  color:#ded3f2;
-}
 .hello {
-  margin:17rem 0 0 6rem;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+  margin:13rem 0 0 6rem;
 }
 
 .hi {
@@ -105,4 +58,205 @@ section {
 
 .typed-cursor {
   font-size:3rem;
+}
+
+.about {
+  position:relative;
+  /*width:100vw;*/
+  background-color:#ffffff;
+  color: #121212;
+  z-index: 4;
+  margin-top:100vh;
+}
+
+.description {
+  text-align:justify;
+  padding: 11rem 30rem 0 30rem;
+  font-size:1.5rem;
+  line-height:2rem;
+}
+
+#hi-wave {
+  font-size:3rem;
+}
+
+.description p {
+  margin-top:1rem;
+}
+
+.description a {
+  text-decoration: none;
+  color: #c1afe4;
+}
+
+.description a:hover {
+  color:#bb86fc;
+}
+
+.projects {
+  padding-top:8rem;
+  position: relative;
+  background: #ffffff;
+  color: #121212;
+  padding-bottom:4rem;
+  z-index:4;
+}
+
+.project-title {
+  text-align:right;
+  padding: 1rem 30rem 0 30rem;
+  font-size:1.5rem;
+  line-height:2rem;
+}
+
+
+.project-cards {
+  padding:2rem 30rem 0 30rem;
+  text-align:center;
+  word-spacing:1.3rem;
+  line-height:2rem;
+}
+.projects ul li {
+  margin-top:1rem;
+  display:inline-block;
+  text-decoration: none;
+  height:30vh;
+  background: #f2f2f2;
+  color:#121212;
+  width:10vw;
+  border-radius: 30px;
+  opacity:0.8;
+  text-align:center;
+  word-spacing:0.1rem;
+}
+
+/*.project-cards ul li a {
+  text-decoration: none;
+  color:#fff;
+}*/
+.project-cards ul li:hover {
+  opacity:1;
+}
+
+.project-cards ul li img{
+  width:10vw;
+  height:10vh;
+  border-top-left-radius: 30px;
+  border-top-right-radius:30px;
+}
+
+.project-cards ul li .heading {
+  word-spacing: 0rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-top:-0.7rem;
+  color:#8f79a9
+}
+.project-cards ul li .tag {
+  background:#8f79a9;
+  color:#fff;
+  border-radius: 30px;
+  font-size:0.4rem;
+  padding:0.2rem 0.5rem;
+}
+
+.project-cards ul li .project-desc {
+  margin:1rem 1rem 0 1rem;
+  line-height:0.8rem;
+  font-size:0.8rem;
+  word-spacing: 0rem;
+  height:35%;
+}
+
+
+/*.small-box {
+  background:#121212;
+  position:absolute;
+  height:4rem;
+  width:45rem;
+  margin-top:3rem;
+  margin-left:30rem;
+  z-index:10;
+}*/
+.top-menu {
+  width:100vw;
+  padding:3rem 0rem;
+  position:fixed;
+  z-index:2;
+  height:100vh;
+  top:0;
+  left:0;
+}
+
+.home-button {
+  position:fixed;
+  float:left;
+  width:50%;
+  padding: 0 0 0 3rem;
+}
+
+.home-button a {
+  color: #ded3f2;
+  font-size:2rem;
+  text-decoration: none;
+  z-index:100;
+}
+
+.home-button a:hover {
+  color:#bb86fc
+}
+
+.page-links {
+  position:absolute;
+  float:right;
+  width:95%;
+  text-align: right;
+  word-spacing:1.5rem;
+  letter-spacing:0.4rem;
+  z-index:10;
+}
+
+.page-links a {
+  color: #ded3f2;
+  text-decoration: none;
+  font-size:0.9rem;
+}
+
+.page-links a:hover {
+  color: #bb86fc;
+}
+
+.social-links {
+  position: fixed;
+  bottom:0;
+  right:0;
+  margin:0 2rem 1rem 0;
+  font-size:1.2rem;
+  z-index:10;
+}
+
+.social-links table {
+  border-width:0;
+}
+
+.social-links td a{
+  color:#ded3f2;
+  padding:0.4rem;
+}
+
+.social-links a:hover {
+  color:#c1afe4;
+}
+
+footer {
+  text-align:center;
+  background:#fff;
+  color: #545454;
+  font-size:0.8rem;
+  letter-spacing: 0.1rem;
+  padding:0.5rem;
+  padding-top:2.5rem;
+}
+
+.justify-text {
+  text-align:justify;
 }

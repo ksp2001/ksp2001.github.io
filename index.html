@@ -6,46 +6,75 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="https://i.imgur.com/ib6waVz.png" sizes="16x16" type="image/png">
   <title>aestaeric</title>
 </head>
 <body>
-  <section id="particles-js" class="home-page">
-    <section class="top-menu">
-      <section class = "page-links">
-          <a href="#">ABOUT</a>
-          <a href="#">PROJECTS</a>
-      </section>
-      <section class = "home-button">
-        <a href="/index.html">aestaeric</a>
-      </section>
-    </section>
-    <section class="hello">
-      <section class="intro">
-        <p class="hi"><strong> Hi, I'm</p>
-        <p class="name">Ketki.</strong></p>
-        <!-- Using the typed.js library to create typing effect on screen -->
-        <section class="geeks typed-strings">
-          <span>Coder. </span> <span>Designer. </span> <span>Language Geek.</span>
+  <section class="panels">
+    <section id="particles-js" class="home-page"></section>
+    <section class="page-one">
+      <section class="hello">
+        <section class="intro">
+          <p class="hi"><strong> Hi, I'm</p>
+          <p class="name">Ketki.</strong></p>
+          <!-- Using the typed.js library to create typing effect on screen -->
+          <section class="geeks typed-strings">
+            <span>Coder. </span> <span>Designer. </span> <span>Language Geek.</span>
+          </section>
+          <p class="typed"></p>
         </section>
-        <p class="typed"></p>
+        <!-- end of live typing -->
       </section>
-      <!-- end of live typing -->
     </section>
-    <section class="social-links">
+  </section>
+  <section class = "about panels">
+      <!--<section id="particles-js-2" class="small-box"></section>-->
+      <section class="description" id="about"><span id="hi-wave"><strong>hello!</strong> &#128075;</span>
+        <p class="justify-text">
+        I'm a first year <a href="https://www.devdegree.ca/">Dev Degree</a> intern at <a href="https://www.shopify.com/">Shopify</a> &#127809;. Also a huge language, kpop, kdrama, anime and fantasy nerd. Currently learning Korean so feel free to hit me up if you wanna talk!</p>
+      </section>
+  </section>
+  <section class = "projects panels" id="projects">
+      <section class="project-title"><span id="hi-wave"><strong>projects!</strong> &#128640;</span></section>
+      <section class="project-cards">
+        <ul>
+          <a href="https://github.com/ksp2001/whatsapp-bot" target="_blank"><li><img src = "https://i.pinimg.com/originals/b5/93/52/b59352bbd06c73b9dbd583f0765c21fe.gif">
+          <p class="heading"><strong><em>whatsapp bot</em></strong></p>
+          <p class="project-desc justify-text">A bot to send WhatsApp messages. Uses the Selenium library to access WhatsApp.</p><span class="tag">html</span> <span class="tag">css</span> <span class="tag">javascript</span></li></a>
+          <a href="https://github.com/ksp2001/sample-landing-page" target="_blank"><li><img src = "https://i.pinimg.com/originals/0b/c0/30/0bc030803dc18816b398e611d09ceaa6.gif">
+          <p class="heading"><strong><em>artsy landing page</em></strong></p><p class="project-desc justify-text">A single page personal website with artsy shapes. Best viewed on desktop.</p><span class="tag">python</span> <span class="tag">selenium</span></li></a></li></a>
+          <a href="https://github.com/ksp2001/personal-website" target="_blank"><li><img src = "https://i.pinimg.com/originals/09/35/21/0935212b9335b6f9568c89c9a5379e0e.gif">
+          <p class="heading"><strong><em>personal page</em></strong></p><p class="project-desc justify-text">A personal entrepreneural website page. Extensive use of CSS grid.</p><span class="tag">html</span> <span class="tag">css</span> <span class="tag">javascript</span></li></a>
+          <a href="#" target="_blank"><li><img src = "https://i.pinimg.com/originals/57/2c/ec/572cec342744aea45ce8afceadf9e0f8.gif">
+          <p class="heading"><strong><em>portfolio website</em></strong></p><p class="project-desc justify-text">My current website. Experiments with a lot of JS libraries and minimalistic design.</p><span class="tag">html</span> <span class="tag">css</span> <span class="tag">javascript</span></li></a>
+          <a href="https://github.com/ksp2001/dev-cashmoney-ksp2001" target="_blank"><li><img src = "https://i.pinimg.com/originals/c6/a1/a7/c6a1a711bf859425f6c293bc73b68cbb.gif">
+          <p class="heading"><strong><em>coin dispenser</em></strong></p><p class="project-desc justify-text">Solution to Harvard CS50 course's Greedy problem in pure Ruby.</p><span class="tag">ruby</span></li></a>
+        </ul>
+      </section>
+  </section>
+  <section class="top-menu">
+    <section class = "page-links">
+        <a href="#about" class="scroll-link">ABOUT</a>
+        <a href="#projects" class="scroll-link">PROJECTS</a>
+    </section>
+    <section class = "home-button">
+      <a href="/index.html">aestaeric</a>
+    </section>
+  </section>
+  <section class="social-links">
       <table>
         <tr>
-          <td><a href="#" id="github"><i class="fa fa-github"></i></a></td>
-          <td><a href="#" id="linkedin"><i class="fa fa-linkedin"></i></a></td>
-          <td><a href="#" id="email"><i class="fa fa-envelope"></i></a></td>
+          <td><a href="https://github.com/ksp2001" id="github" target="_blank"><i class="fa fa-github"></i></a></td>
+          <td><a href="https://www.linkedin.com/in/ketki-panse/" id="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></td>
+          <td><a href="mailto:ketki.panse@shopify.com" id="email" target="_blank"><i class="fa fa-envelope"></i></a></td>
+          <td><a href="https://www.behance.net/aestaeric/" id="behance" target="_blank"><i class="fa fa-behance"></i></a></td>
         </tr>
       </table>
     </section>
-  </section>
-  <section class = "about">
-    
-  </section>
+    <footer>&#169; aestaeric 2019</footer>
 
 <script src="https://use.fontawesome.com/4fad2988a5.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
