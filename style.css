@@ -434,7 +434,7 @@ footer {
   
 }
 
-@media only screen and (max-height: 1000px) {
+@media only screen and (max-height: 600px) {
     .hello {
       margin:9rem 0 0 6rem;
     }
