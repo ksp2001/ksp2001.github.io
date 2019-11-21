@@ -95,6 +95,10 @@ body {
   color:#bb86fc;
 }
 
+.short-text {
+  visibility: hidden;
+}
+
 .projects {
   padding-top:8rem;
   position: relative;
@@ -183,7 +187,7 @@ body {
   line-height:1.1rem;
   word-spacing:0.7rem;
   padding:2rem 30rem 4rem 30rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .top-menu {
@@ -332,6 +336,10 @@ footer {
     margin-top:1.7rem;
   }
 
+  .short-text {
+    visibility: visible;
+  }
+
   /* projects part */
   
   .project-title {
@@ -390,5 +398,20 @@ footer {
     line-height:1.4rem;
     word-spacing:1rem;
     padding:2rem 10rem 4rem 10rem;
+  }
+
+  .social-links {
+    position: fixed;
+    left: 50%;
+    transform: translate(-30%, 0);
+    margin:0 0 2rem 0;
+    font-size:1.2rem;
+    z-index:10;
+  }
+  
+  .social-links td a{
+    color:#ded3f2;
+    padding:0.6rem;
+    font-size:1.4rem;
   }
 }
