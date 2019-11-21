@@ -293,11 +293,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .page-one {
-    height:70%
-  }
-  .about {
-    margin-top:70%;
+
+  .hello {
+    margin:10rem 0 0 6rem;
   }
 
   .page-links {
