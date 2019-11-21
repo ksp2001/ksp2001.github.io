@@ -266,6 +266,7 @@ footer {
   letter-spacing: 0.1rem;
   padding:0.5rem;
   padding-top:2.5rem;
+  margin-top:-5px;
 }
 
 .justify-text {
