@@ -295,7 +295,7 @@ footer {
 @media only screen and (max-width: 600px) {
 
   .hello {
-    margin:10rem 0 0 7rem;
+    margin:10rem 0 2rem 6rem;
   }
 
   .page-links {
