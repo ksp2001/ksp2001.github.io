@@ -294,7 +294,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .particlesjs {
-    height:70%
+    height:100%
   }
   .about {
     margin-top:70%;
