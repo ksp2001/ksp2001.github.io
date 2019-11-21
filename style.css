@@ -28,7 +28,7 @@ body {
   position : absolute;
   z-index:-10;
   width:100vw;
-  height:100vh;
+  height:100%;
 }
 
 #particles-js {
@@ -290,4 +290,10 @@ footer {
 
 .my-button:hover {
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    margin-top:100%;
+  }
 }
