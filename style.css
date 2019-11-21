@@ -350,7 +350,8 @@ footer {
   }
   
   .project-cards ul li .heading {
-    font-size:2.5rem;
+    font-size:2.2rem;
+    margin-top:0;
   }
 
   .project-cards ul li .tag {
@@ -363,7 +364,8 @@ footer {
     line-height:0.8rem;
     font-size:0.8rem;
     word-spacing: 0rem;
-    height:380px;
+    height:330px;
+    font-size:1.5rem;
   }
 
 }
