@@ -298,6 +298,10 @@ footer {
     margin:8rem 0 0 6rem;
   }
 
+  .hire-title, .project-title {
+    font-size:1.1rem
+  }
+
   .page-links {
     visibility: hidden;
   }
