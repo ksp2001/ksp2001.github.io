@@ -369,4 +369,18 @@ footer {
     line-height:1.7rem;
   }
 
+  /* hire me page */
+  
+  .hire-title {
+    padding: 1rem 10rem 0 10rem;
+    font-size:1.5rem;
+    line-height:2rem;
+  }
+  
+  .hire-desc {
+    font-size:1.4rem;
+    line-height:1.4rem;
+    word-spacing:1rem;
+    padding:2rem 10rem 4rem 10rem;
+  }
 }
