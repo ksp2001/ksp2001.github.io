@@ -430,6 +430,10 @@ footer {
   .social-links-mobile a:hover {
     color:#c1afe4;
   }
+
+  @-ms-viewport{
+    initial-scale : 0.25;
+  }
   
 }
 
