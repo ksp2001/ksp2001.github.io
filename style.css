@@ -296,8 +296,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-  .hello {
-    margin:8rem 0 0 6rem;
+  .home-page, .hello {
+    visibility: hidden;
   }
 
   .hire-title, .project-title {
@@ -309,6 +309,10 @@ footer {
   }
 
   /* hell0-wave part */
+
+  .about {
+    margin-top:0;
+  }
   
   .description {
     padding: 11rem 10rem 0 10rem;
