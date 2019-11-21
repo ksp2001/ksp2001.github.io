@@ -80,6 +80,7 @@ body {
 
 #hi-wave {
   font-size:3rem;
+  line-height:3.2rem;
 }
 
 .description p {
@@ -96,7 +97,7 @@ body {
 }
 
 .short-text {
-  visibility: hidden;
+  display:none;
 }
 
 .projects {
@@ -298,6 +299,11 @@ footer {
   opacity: 0.6;
 }
 
+.social-links-mobile {
+  display:none;
+  background:#ffffff;
+}
+
 @media only screen and (max-width: 600px) {
 
   .home-page, .hello {
@@ -337,7 +343,7 @@ footer {
   }
 
   .short-text {
-    visibility: visible;
+    display: contents;
   }
 
   /* projects part */
@@ -401,17 +407,28 @@ footer {
   }
 
   .social-links {
-    position: fixed;
-    left: 50%;
-    transform: translate(-30%, 0);
-    margin:0 0 2rem 0;
-    font-size:1.2rem;
-    z-index:10;
+    display: none;
+  }
+ 
+  .social-links-mobile {
+    display:contents;
+    text-align: center;
+  }
+
+  .social-links-mobile table {
+    display:inline-block;
+    border-width:0;
+    background:#ffffff;
   }
   
-  .social-links td a{
+  .social-links-mobile td a{
     color:#ded3f2;
-    padding:0.6rem;
-    font-size:1.4rem;
+    padding:0.4rem;
+    font-size:1.2rem
   }
+  
+  .social-links-mobile a:hover {
+    color:#c1afe4;
+  }
+  
 }
