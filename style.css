@@ -301,10 +301,14 @@ footer {
   }
 
   .hire-title, .project-title {
-    font-size:1.1rem
+    font-size:0.9rem
   }
 
   .page-links {
+    visibility: hidden;
+  }
+
+  .my-button {
     visibility: hidden;
   }
 
