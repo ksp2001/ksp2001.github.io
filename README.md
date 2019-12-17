@@ -4,4 +4,4 @@ A personal portfolio website using html, css, javascript, and javascript librari
 
 _V1_ : Works across desktop devices.
 
-_V2_ (in progress) : Compatible on mobile & tablet devices.
+_V2_ : Compatible on mobile & tablet devices.
