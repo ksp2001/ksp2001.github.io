@@ -1,10 +1,10 @@
-# STATIC LANDING PAGE
+# PERSONAL PORTFOLIO WEBSITE
 
-Creating a single page, static website as a landing page. Attempt with darker shades, more colours, and graphics. Is mobile compatible.
+Made without use of Javascript frameworks, this project is an attempt to correctly represent myself on the internet. It employs minimalism, and use of several styling Javascript libraries to bring it personality. Using lists and tables in a unique way to create project cards and the likes.
 
 ## Getting started 🎬
 
-Available at https://kspsample.netlify.app/
+Available at https://aestaeric.me/
 
 ### Prerequisites 🧺
 
