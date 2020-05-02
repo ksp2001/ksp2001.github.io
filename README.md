@@ -1,7 +1,27 @@
-# Personal Web Portfolio
+# STATIC LANDING PAGE
 
-A personal portfolio website using html, css, javascript, and javascript libraries.
+Creating a single page, static website as a landing page. Attempt with darker shades, more colours, and graphics. Is mobile compatible.
 
-_V1_ : Works across desktop devices.
+## Getting started 🎬
 
-_V2_ : Compatible on mobile & tablet devices.
+Available at https://kspsample.netlify.app/
+
+### Prerequisites 🧺
+
+None at the moment.
+
+## Built With 🔨
+
+* HTML, CSS and Javascript
+
+## Author 📚
+
+* **Ketki Panse** - *Github* - [ksp2001](https://github.com/ksp2001)
+
+## License 🎫
+
+This project is licensed under the MIT License
+
+## Acknowledgments 🎖
+
+* None at the moment.
